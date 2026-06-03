@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* Configura dark mode por classe (.dark no <html>) em vez de media query */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #fafafa;
+  --foreground: #18181b;
+}
+
+.dark {
+  --background: #09090b;
+  --foreground: #fafafa;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero: animação de entrada (acima do fold, AOS não cobre) */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up               { animation: fadeUp 0.7s ease-out both; }
+.animate-delay-100             { animation-delay: 100ms; }
+.animate-delay-200             { animation-delay: 200ms; }
+.animate-delay-300             { animation-delay: 300ms; }
+.animate-delay-400             { animation-delay: 400ms; }
+.animate-delay-500             { animation-delay: 500ms; }
+
+/* Navbar: underline deslizante nos links */
+.nav-link { position: relative; }
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #3b82f6;
+  border-radius: 9999px;
+  transition: width 0.25s ease;
+}
+.nav-link:hover::after { width: 100%; }

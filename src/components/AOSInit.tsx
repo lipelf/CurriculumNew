@@ -1,0 +1,13 @@
+'use client';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default function AOSInit() {
+  useEffect(() => {
+    AOS.init({ duration: 650, once: true, easing: 'ease-out-cubic', offset: 60 });
+    // Garante que elementos já visíveis na tela animem corretamente
+    AOS.refresh();
+  }, []);
+  return null;
+}
