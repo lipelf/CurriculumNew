@@ -6,19 +6,19 @@ const projects = [
     title: 'Currículo',
     description: 'Meu currículo em formato web, mostrando um pouco dos meus conhecimentos, experiências e afins.',
     tags: ['TypeScript', 'NestJS'],
-    github: 'https://github.com/LuizSantos01',
+    github: 'https://github.com/lipelf',
   },
   {
-    title: 'Automação de Testes E2E',
-    description: 'Suite de testes end-to-end e automação de APIs com Playwright e TypeScript seguindo o padrão Gherkin BDD. Integrado ao pipeline do Azure DevOps.',
-    tags: ['TypeScript', 'Playwright', 'Selenium', 'Postman', 'Scrum'],
-    github: 'https://github.com/LuizSantos01',
+    title: 'Automação de chatbot via Whatsapp - EM BREVE',
+    description: 'Automação de chatbot via Whatsapp utilizando typescript, apis do whatsapp e openai api.',
+    tags: ['TypeScript', 'OpenAI API', 'Whatsapp API'],
+    github: 'https://github.com/lipelf',
   },
-  {
-    title: 'Chatbot com OpenAI API',
-    description: 'Chatbot funcional integrado ao ChatGPT (OpenAI API) desenvolvido em parceria com a Unesc. Backend em Python/FastAPI, banco MongoDB e frontend em ReactJS.',
-    tags: ['Python', 'FastAPI', 'MongoDB', 'ReactJS', 'OpenAI API'],
-    github: 'https://github.com/LuizSantos01',
+    {
+    title: 'Sistema automático de envio de emails para usuários. - EM BREVE',
+    description: 'Sistema automático de envio de emails para usuários utilizando typescript, Redis, BUll, SMTP',
+    tags: ['TypeScript', 'Redis', 'Bun', 'SMTP'],
+    github: 'https://github.com/lipelf',
   },
 ];
 
