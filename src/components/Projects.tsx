@@ -6,7 +6,7 @@ const projects = [
     title: 'Currículo',
     description: 'Meu currículo em formato web, mostrando um pouco dos meus conhecimentos, experiências e afins.',
     tags: ['TypeScript', 'NestJS'],
-    github: 'https://github.com/lipelf',
+    github: 'https://github.com/lipelf/CurriculumNew',
   },
   {
     title: 'Automação de chatbot via Whatsapp - EM BREVE',
