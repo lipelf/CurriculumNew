@@ -2,7 +2,6 @@ import { SiGithub } from 'react-icons/si';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
 import { HiMail, HiLocationMarker, HiClock } from 'react-icons/hi';
 
-// Itens com href viram links clicáveis; sem href ficam como texto estático
 const info = [
   { icon: FaWhatsapp,       label: 'WhatsApp',       href: 'https://wa.me/5548998386296',  value: '+55 48 99838-6296' },
   { icon: HiMail,           label: 'Email',           href: 'mailto:luizfrs2004@gmail.com', value: 'luizfrs2004@gmail.com' },
@@ -56,18 +55,6 @@ export default function Contact() {
               <div>
                 <p className="text-sm font-medium text-zinc-900 dark:text-white">GitHub primário</p>
                 <p className="text-xs text-zinc-400">github.com/lipelf</p>
-              </div>
-            </a>
-            <a
-              href="https://github.com/LuizSantos01"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 p-4 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl hover:border-blue-400 dark:hover:border-blue-500 transition-colors group"
-            >
-              <SiGithub size={20} className="text-zinc-700 dark:text-zinc-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors" />
-              <div>
-                <p className="text-sm font-medium text-zinc-900 dark:text-white">GitHub secundário</p>
-                <p className="text-xs text-zinc-400">github.com/LuizSantos01</p>
               </div>
             </a>
             <a

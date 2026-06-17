@@ -44,7 +44,6 @@ const experiences = [
 export default function About() {
   const [expandido, setExpandido] = useState(false);
   
-  // Array dinâmico baseado no clique do botão
   const rolesVisiveis = expandido ? experiences : experiences.slice(0, 3);
 
   return (
