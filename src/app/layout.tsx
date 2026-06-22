@@ -15,8 +15,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Luiz Fellipe — Dev Backend",
-  description: "Desenvolvedor Backend Jr. | TypeScript · Node.js · NestJS · PostgreSQL",
+  title: "Luiz Fellipe Rocha — Desenvolvedor Backend Jr.",
+  description: "Portfólio de Luiz Fellipe Rocha, desenvolvedor Backend Jr. especializado em TypeScript, Node.js, NestJS e PostgreSQL.",
+  keywords: ["Luiz Fellipe Rocha", "desenvolvedor backend", "TypeScript", "NestJS", "Node.js", "PostgreSQL"],
+  authors: [{ name: "Luiz Fellipe Rocha" }],
+  openGraph: {
+    title: "Luiz Fellipe Rocha — Desenvolvedor Backend Jr.",
+    description: "Portfólio de Luiz Fellipe Rocha, desenvolvedor Backend Jr. especializado em TypeScript, Node.js, NestJS e PostgreSQL.",
+    url: "https://luizfellipe.com.br",
+    siteName: "Luiz Fellipe Rocha",
+    locale: "pt_BR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
