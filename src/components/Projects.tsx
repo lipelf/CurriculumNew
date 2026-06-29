@@ -15,10 +15,10 @@ const projects = [
     github: 'https://github.com/lipelf',
   },
     {
-    title: 'Sistema automático de envio de emails para usuários. - EM BREVE',
+    title: 'Sistema automático de envio de emails para usuários.',
     description: 'Sistema automático de envio de emails para usuários utilizando typescript, Redis, BUll, SMTP',
     tags: ['TypeScript', 'Redis', 'Bun', 'SMTP'],
-    github: 'https://github.com/lipelf',
+    github: 'https://github.com/lipelf/templates-email',
   },
 ];
 
